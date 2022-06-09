@@ -1,0 +1,12 @@
+﻿@page
+@model KatalogGwiazd.Pages.UsunGwiazdeModel
+@{
+}
+
+<form method="post" enctype="multipart/form-data">
+	<hr />
+<label style="color:white">Na pewno chcesz usunąć?</label>
+
+<input type="Text" hidden asp-for="Star2.Id" value="@Model.jakieid"/>
+<button type="submit">Tak</button> <button><a style="color:black" asp-page="/EdytujGwiazde" asp-route-Id="@Model.jakieid" >Nie</a></button>
+</form>

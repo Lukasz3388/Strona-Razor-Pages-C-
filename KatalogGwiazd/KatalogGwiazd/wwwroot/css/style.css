@@ -1,0 +1,178 @@
+body{
+    font-size: 1.5rem;
+    font-family:sans-serif;
+    background-color: black;
+}
+.box {
+    background: #222;
+    color:#fff;
+}
+a:link, a:hover, a:visited, a:active{
+    text-decoration: none;
+    color:white;
+    display: block;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 5% 1fr 1fr 5%;
+    grid-template-rows: repeat(3,minmax(400px,auto));
+    width: Auto;
+    height: Auto;
+}
+.grid2{
+    display: grid;
+    grid-template-columns: 5% 1fr 1fr 5%;
+    grid-template-rows: repeat(3,minmax(400px,auto));
+    width: Auto;
+    height: Auto;
+}
+.box1{
+    grid-column: 2/4;
+    grid-row: 1/2;
+    vertical-align:middle;
+    text-align: center;
+    align-items: center;
+    position:relative;
+    background-Image:url('Zdjecie.png');
+    
+}
+.glowny_napis{
+    font-size: 80px;
+    font-weight: bold;
+    color:White;
+    text-shadow: gray;
+    text-align: center;
+    position:relative;
+    top:20%;
+    cursor: pointer;
+}
+.glowny_napis:hover{
+opacity: 0.8;
+}
+.boxpaski{
+    grid-row: 1/6;
+    background-color: black;
+    font-size: small;
+    text-align: center;
+}
+
+
+.box3{
+    background-color: #222;
+    text-align: center;
+    object-fit: fill;
+    max-height: 400px;
+    vertical-align: center;
+    border-radius: 2px;
+    border-color: black;
+
+    box-shadow: inset 0 0 0 0 black;
+    color: white;
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;  
+}
+.box3:hover{
+    box-shadow: inset 100px 0 0 0 black;
+    color: white;
+    opacity: .5;
+    cursor: pointer;
+}
+.box4 {
+    background-color: #222;
+    text-align: center;
+    object-fit: fill;
+    max-height: 400px;
+    vertical-align: center;
+    border-radius: 2px;
+    border-color: black;
+}
+    .tekst{
+    color:White;
+    text-shadow: black;
+    text-align: justify;
+    position:relative;
+    top:10%;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    width:auto;
+    max-height: 100%;
+    
+}
+.artykul{
+    color:white;
+    text-align: justify;
+}
+.artykulimg{
+    
+    color:white;
+    width: 100%;
+    height: auto;
+    border: 2px solid black;
+    background-Image:url('Zdjecie.png');
+}
+  
+
+.tytul_art{
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+
+}
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px; 
+    font-size: 18px;
+  }
+  
+  #myBtn:hover {
+    background-color: #555;
+  }
+  .edycja{
+      position:fixed;
+      bottom:20px;
+      left:30px;
+      background-color: black;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px; 
+    font-size: 18px;
+  }
+  textarea{
+      min-height: 300px;
+      min-width: 900px;
+  }
+  .submitedit{
+      font-size: 40px;
+      background-color: black;
+      color:white;
+  }
+  .submitedit:hover{
+    opacity: 0.8;  
+    }   
+#reload_page{
+    grid-column: 2/4;
+    display: grid;
+    grid-template-columns: 1.5fr 0.5fr;
+    grid-template-rows: repeat(4,minmax(400px,auto));
+    width: Auto;
+    height: Auto;
+}
+.imageglowna{
+    min-width:300px;
+    min-height:300px;
+    max-height:500px;
+    max-width:400px;
+}

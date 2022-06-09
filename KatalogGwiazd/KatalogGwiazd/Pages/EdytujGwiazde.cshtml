@@ -1,0 +1,21 @@
+﻿@page
+@model KatalogGwiazd.Pages.EdytujGwiazdeModel
+@{
+}
+<form method="post" enctype="multipart/form-data">
+
+	<hr />
+	<hr />
+	
+	<input type="Text" placeholder="Nazwa Gwiazdy" asp-for="Star1.Name" value="@Model.nazwa"/>
+	<hr />
+	<textarea id="texareaid" placeholder="Opis" asp-for="Star1.Description"></textarea>
+	<input type="Text" hidden asp-for="Star1.Id" value="@Model.jakieid"/>
+	<input asp-for="Photo" accept="image/*"/>
+	<script>
+		document.getElementById("texareaid").value="@Model.opis";
+	</script>
+	<hr />
+	<button type="submit">Zapisz</button> <button><a style="color:black" asp-page="/UsunGwiazde" asp-route-Id="@Model.jakieid" >Usun</a></button>
+</form>
+

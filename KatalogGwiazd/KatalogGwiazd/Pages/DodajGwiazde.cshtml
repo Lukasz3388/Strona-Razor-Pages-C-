@@ -1,0 +1,15 @@
+﻿@page
+@model KatalogGwiazd.Pages.DodajGwiazdeModel
+@{
+}
+<form method="post" enctype="multipart/form-data">
+
+	<hr />
+	<hr />
+	<input type="Text" placeholder="Nazwa Gwiazdy" asp-for="Star.Name"/>
+	<hr />
+	<textarea placeholder="Opis" asp-for="Star.Description"></textarea>
+	<hr />
+	<input asp-for="Photo" accept="image/*"/>
+	<button type="submit">Zapisz</button>
+</form>
