@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JVKCm7yWg8KsB9R8OvsKuAda9jgZviaF/eT3r+XegsjPXa9YrL50z2qaA8LQ27DlSPyf2z4DQhbh910vDO8tQQ==",
+  "dgSpecHash": "GqI1W8T0J/csvFVtXNwK8D6pj+wrJ/Ow3AQi+vb0s7nHa9QbxCobxueqaM7xA05GdbAnJvsO5vG6Lxb+u+MvmA==",
   "success": true,
-  "projectFilePath": "G:\\Programowanie 2\\razor pages projekt 2\\KatalogGwiazd\\KatalogGwiazd\\KatalogGwiazd.csproj",
+  "projectFilePath": "E:\\Studia\\semestr 4\\pendrive\\Programowanie 2\\razor pages projekt 2\\KatalogGwiazd\\KatalogGwiazd\\KatalogGwiazd.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lukas\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\lukas\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.extensions\\5.0.16\\microsoft.aspnetcore.mvc.razor.extensions.5.0.16.nupkg.sha512",
